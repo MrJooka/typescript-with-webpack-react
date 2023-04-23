@@ -35,3 +35,9 @@ function random(num: number) {
 
 const colors = ["red", "green", "blue"];
 colors.map((color) => color.toUpperCase());
+
+function printTwice(message: string): void {
+  console.log(message);
+  console.log(message);
+  // return null;
+}
