@@ -9,3 +9,7 @@ function greet(name: string) {
 }
 
 greet("mike");
+
+const doSomething = (person: string, age: number, isFunny: boolean) => {};
+
+doSomething("mike");
