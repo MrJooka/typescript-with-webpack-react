@@ -9,3 +9,13 @@ function printName(animal: { name: string; age: number; breed: string }): void {
 }
 
 printName(dog);
+
+let coordinate: { x: number; y: number } = { x: 10, y: 20 };
+
+function printCoordinate1(): { x: number; y: number } {
+  return { y: 12, x: 14 };
+}
+
+function printCoordinate2(): typeof coordinate {
+  return { y: 12, x: 14 };
+}
