@@ -20,3 +20,10 @@ tvShow = 9;
 
 let isFunny = true;
 isFunny = "true";
+
+// the any type
+let whatever: any = "hello";
+whatever = 9;
+whatever = true;
+whatever = null;
+whatever.toUpperCase();
