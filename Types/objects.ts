@@ -19,3 +19,7 @@ function printCoordinate1(): { x: number; y: number } {
 function printCoordinate2(): typeof coordinate {
   return { y: 12, x: 14 };
 }
+
+printName({ name: "Bingo", age: 5, breed: "Dalmatian", isFemale: false });
+const cat = { name: "Bingo", age: 5, breed: "Dalmatian", isFemale: false };
+printName(cat);
