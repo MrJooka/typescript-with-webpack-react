@@ -27,3 +27,16 @@ whatever = 9;
 whatever = true;
 whatever = null;
 whatever.toUpperCase();
+
+const movies = ["The Godfather", "The Godfather II", "The Godfather III"];
+let foundMovie: string;
+
+for (let i = 0; i < movies.length; i++) {
+  if (movies[i] === "The Godfather II") {
+    foundMovie = "The Godfather II";
+  }
+}
+
+foundMovie();
+foundMovie = 1;
+foundMovie.akdkfkafsj();
