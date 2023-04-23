@@ -32,3 +32,6 @@ function random(num: number) {
   }
   return num;
 }
+
+const colors = ["red", "green", "blue"];
+colors.map((color) => color.toUpperCase());
