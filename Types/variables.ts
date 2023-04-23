@@ -9,3 +9,14 @@ numCatLives += 1;
 let gameOver: boolean = false;
 gameOver = true;
 gameOver = "true";
+
+let nothing: null = null;
+let notDefined: undefined = undefined;
+
+// Type inference
+let tvShow = "Game of Thrones";
+tvShow = "Breaking Bad";
+tvShow = 9;
+
+let isFunny = true;
+isFunny = "true";
