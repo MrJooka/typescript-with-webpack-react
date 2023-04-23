@@ -1,6 +1,6 @@
-function square(n: number) {
-  return n * n;
-}
+// function square(n: number) {
+//   return n * n;
+// }
 
 square(2);
 
@@ -19,3 +19,16 @@ function greet(name: string = "stranger") {
 }
 
 greet();
+
+function square(n: number): number {
+  return n * n;
+}
+
+const add = (a: number, b: number): number => a + b;
+
+function random(num: number) {
+  if (Math.random() > 0.5) {
+    return num.toString();
+  }
+  return num;
+}
