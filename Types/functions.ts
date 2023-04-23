@@ -36,8 +36,18 @@ function random(num: number) {
 const colors = ["red", "green", "blue"];
 colors.map((color) => color.toUpperCase());
 
+// void는 엄밀히 말하면 undefined를 반환하는 함수를 의미한다.
 function printTwice(message: string): void {
   console.log(message);
   console.log(message);
   // return null;
+}
+
+// never는 절대 반환하지 않는 함수를 의미한다.
+function makeError(message: string): never {
+  throw new Error(message);
+}
+
+function infiniteLoop(): never {
+  while (true) {}
 }
